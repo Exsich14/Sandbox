@@ -25,7 +25,7 @@ void draw() {
         }
         std::cout << '\n';
     }
-    std::cout << "WASD move | B build | X destroy | Q quit\n";
+    std::cout << "WASD move | B build | X destroy | Q or ESC quit\n";
 }
 
 int main() {
