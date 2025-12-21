@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <conio.h>
 
 const int WIDTH = 20;
 const int HEIGHT = 10;
@@ -35,7 +36,7 @@ int main() {
         char c;
         std::cin >> c;
 
-        if (c == 'q') break;
+        if (c == 'q' || c == 27) break;
 
         if (c == 'w' && py > 0) py--;
         if (c == 's' && py < HEIGHT - 1) py++;
