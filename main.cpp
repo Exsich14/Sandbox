@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <conio.h>
 
 const int WIDTH = 20;
 const int HEIGHT = 10;
@@ -25,7 +24,7 @@ void draw() {
         }
         std::cout << '\n';
     }
-    std::cout << "WASD move | B build | X destroy | Q or ESC quit\n";
+    std::cout << "WASD move | B build | X destroy | Q quit\n";
 }
 
 int main() {
