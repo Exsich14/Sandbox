@@ -2,6 +2,13 @@
 
 A small 2D sandbox game that runs in the terminal. Wander the world with WASD, build structures with the `B` key, and remove what you've placed with the `X` key. Designed to be minimal, extensible, and playable entirely from the console.
 
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
+![MSYS](https://img.shields.io/badge/MSYS-15.2.0-red)
+![Version](https://img.shields.io/badge/version-v0.1.0-orange)
+![Status](https://img.shields.io/badge/status-released-green)
+![License](https://img.shields.io/badge/license-MIT-red)
+![Version](https://img.shields.io/github/v/release/Exsich14/Sandbox)
+
 ## Features
 - Top-down 2D world rendered in the terminal
 - Simple movement using WASD
