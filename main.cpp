@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+using namespace std;
 
 const int WIDTH = 20;
 const int HEIGHT = 10;
@@ -7,10 +8,10 @@ const int HEIGHT = 10;
 int px = 5;
 int py = 5;
 
-std::vector<std::vector<char>> world;
+vector<vector<char>> world;
 
 void init() {
-    world.resize(HEIGHT, std::vector<char>(WIDTH, '.'));
+    world.resize(HEIGHT, vector<char>(WIDTH, '.'));
 }
 
 void draw() {
@@ -18,13 +19,13 @@ void draw() {
     for (int y = 0; y < HEIGHT; y++) {
         for (int x = 0; x < WIDTH; x++) {
             if (x == px && y == py)
-                std::cout << '@';
+                cout << '@';
             else
-                std::cout << world[y][x];
+                cout << world[y][x];
         }
-        std::cout << '\n';
+        cout << '\n';
     }
-    std::cout << "WASD move | B build | X destroy | Q quit\n";
+    cout << "WASD move | B build | X destroy | Q quit\n";
 }
 
 int main() {
@@ -33,7 +34,7 @@ int main() {
     while (true) {
         draw();
         char c;
-        std::cin >> c;
+        cin >> c;
 
         if (c == 'q' || c == 27) break;
 
